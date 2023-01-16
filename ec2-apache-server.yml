@@ -305,3 +305,7 @@ Outputs:
         Description: 'Application Load Balancer Hostname'
         Value:
           !GetAtt ApplicationLoadBalancer.DNSName
+    EC2Instance:
+        Description: 'EC2 Instance'
+        Value:
+          Ref: AmazonLinuxInstance
