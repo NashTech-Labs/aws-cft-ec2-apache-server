@@ -305,8 +305,3 @@ Outputs:
         Description: 'Application Load Balancer Hostname'
         Value:
           !GetAtt ApplicationLoadBalancer.DNSName
-    ApplicationLoadBalancer:
-        Description: 'Application Load Balancer'
-        Value:
-          Ref: ApplicationLoadBalancer          
-        
